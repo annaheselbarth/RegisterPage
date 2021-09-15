@@ -6,7 +6,7 @@
   .header a {
     float: right;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
@@ -21,9 +21,10 @@
   }
 
   .button{
-      background-color: darkblue;
-      color: white;
+      color: darkblue;
+      font: white;
       text-align: right;
+      float: right;
   }
 
   input[type=text], input[type=password] {
