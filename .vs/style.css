@@ -1,0 +1,58 @@
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  .header a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 5px;
+    border-radius: 4px;
+    text-align: right;
+  }
+
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+  .button{
+      background-color: darkblue;
+      color: white;
+      text-align: right;
+  }
+
+  input[type=text], input[type=password] {
+    width: 75%;
+    padding: 5px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: gray;
+    background: white;
+  }
+
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: white;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .container {
+    padding: 16px;
+    margin: 20%;
+    background-color: white;
+  }
+
+  body {
+      background-color: rgb(62, 138, 236);
+  }
+  
+
